@@ -26,6 +26,8 @@ Output:
 Updated Airtable record with category, urgency, confidence score, and status set to CLASSIFIED
 Standalone Demo:
 Show at least 10 sample emails being automatically classified and placed into the correct Airtable views.
+
+
 Component 2: Auto Response Drafting
 Owner: Sabina Ruzieva
 This component creates a Flowise LLM chain that generates draft responses for common email types, such as answering questions, acknowledging complaints, or responding to requests. The draft is saved in Airtable in a review queue so that a human can approve or edit it before sending. This keeps the system automated but still controlled.
@@ -37,6 +39,8 @@ Output:
 Draft response stored in Airtable with status set to NEEDS_REVIEW
 Standalone Demo:
 Generate draft replies for at least 5 emails and show them appearing in the review queue.
+
+
 Component 3: Integration, Testing & Dashboard
 Owner: Zainab Chaudhry
 This component designs the Airtable base, including the Emails table, Response Drafts table, and any linked records needed. It also creates at least 30 test emails across all categories and urgency levels. In addition, this component builds dashboard views in Airtable that show category breakdown, urgency distribution, and a Kanban-style view for emails that need human review. This role ensures that all components connect correctly and prepares the final demo and documentation.
