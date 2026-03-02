@@ -12,8 +12,7 @@ In many workplaces, email inboxes quickly become overwhelming. Important or urge
 This system is designed for small teams, student organizations, help-desk environments, or businesses that receive a high volume of emails and need help organizing and prioritizing them. It is especially useful in situations where quick responses and structured workflows are important.
 
 **Architecture**
-![Architecture Diagram](docs/architecture.png)
-
+![Architecture Diagram](architecture.png)
 
 **Component Breakdown
 Component 1: Email Ingestion + Classification & Routing
